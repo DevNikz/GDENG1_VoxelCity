@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 988
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Git for Unity
   m_RootView: {fileID: 4}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -74,7 +74,7 @@ MonoBehaviour:
   m_MinSize: {x: 100, y: 100}
   m_MaxSize: {x: 8096, y: 16192}
   vertical: 1
-  controlID: 106
+  controlID: 123
 --- !u!114 &4
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -298,7 +298,7 @@ MonoBehaviour:
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 56
+  controlID: 59
 --- !u!114 &13
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -380,7 +380,7 @@ MonoBehaviour:
   - {fileID: 26}
   - {fileID: 16}
   m_Selected: 3
-  m_LastSelected: 1
+  m_LastSelected: 0
 --- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -614,7 +614,7 @@ MonoBehaviour:
     commitBody: 
     commitMessage: 
     currentBranch: master
-    treeScroll: {x: 0, y: 59}
+    treeScroll: {x: 0, y: 0}
     treeChanges:
       assets:
         keys: []
@@ -4371,13 +4371,13 @@ MonoBehaviour:
     m_Tooltip: Url of the origin remote
     m_TextWithWhitespace: "https://github.com/DevNikz/GDENG1_VoxelCity\u200B"
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2024-05-15T18:29:00.589+08:00
+    updatedTimeString: 2024-05-15T18:41:13.716+08:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2024-05-15T18:29:03.073+08:00
+    updatedTimeString: 2024-05-15T19:07:26.303+08:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2024-05-15T18:28:43.837+08:00
+    updatedTimeString: 2024-05-15T19:07:02.098+08:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -4998,9 +4998,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 119.594284, y: -69.95975, z: 99.009514}
+    m_Target: {x: 83.18321, y: -75.88092, z: 128.52663}
     speed: 2
-    m_Value: {x: 119.594284, y: -69.95975, z: 99.009514}
+    m_Value: {x: 83.18321, y: -75.88092, z: 128.52663}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -5046,9 +5046,9 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
-    m_Target: {x: -0.19787724, y: -0.41571042, z: 0.093177736, w: -0.88281053}
+    m_Target: {x: -0.2128533, y: -0.27191234, z: 0.06180339, w: -0.93645334}
     speed: 2
-    m_Value: {x: 0.19787724, y: 0.41571042, z: -0.09317773, w: 0.8828105}
+    m_Value: {x: -0.21285328, y: -0.27191234, z: 0.061803386, w: -0.9364533}
   m_Size:
     m_Target: 94.43423
     speed: 2
@@ -5282,7 +5282,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 11}
+        m_ClientGUIView: {fileID: 0}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -5411,7 +5411,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets
+    - Assets/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -5421,16 +5421,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\GDENG1\GDENG1_VoxelCity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: 8ec60000
-    m_LastClickedID: 50830
-    m_ExpandedIDs: 00000000a0ea0000a2ea0000
+    m_SelectedIDs: 40eb0000
+    m_LastClickedID: 60224
+    m_ExpandedIDs: 00000000e0c80000e2c80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -5459,7 +5459,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 00000000a0ea0000a2ea0000
+    m_ExpandedIDs: 00000000e0c80000e2c80000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
