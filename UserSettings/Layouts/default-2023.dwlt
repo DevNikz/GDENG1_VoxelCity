@@ -19,7 +19,7 @@ MonoBehaviour:
     width: 1920
     height: 988
   m_ShowMode: 4
-  m_Title: Project
+  m_Title: Inspector
   m_RootView: {fileID: 2}
   m_MinSize: {x: 875, y: 371}
   m_MaxSize: {x: 10000, y: 10000}
@@ -119,7 +119,7 @@ MonoBehaviour:
   m_MinSize: {x: 300, y: 100}
   m_MaxSize: {x: 24288, y: 16192}
   vertical: 0
-  controlID: 16
+  controlID: 129
 --- !u!114 &6
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -139,7 +139,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1492
+    width: 1250
     height: 938
   m_MinSize: {x: 200, y: 100}
   m_MaxSize: {x: 16192, y: 16192}
@@ -164,7 +164,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1492
+    width: 1250
     height: 641
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
@@ -180,23 +180,24 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 1
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: SceneView
+  m_Name: GameView
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 1197
+    width: 994
     height: 641
   m_MinSize: {x: 201, y: 221}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 17}
+  m_ActualView: {fileID: 14}
   m_Panes:
-  - {fileID: 17}
-  - {fileID: 18}
-  m_Selected: 0
-  m_LastSelected: 1
+  - {fileID: 15}
+  - {fileID: 14}
+  - {fileID: 16}
+  m_Selected: 1
+  m_LastSelected: 0
 --- !u!114 &9
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -212,15 +213,15 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 1197
+    x: 994
     y: 0
-    width: 295
+    width: 256
     height: 641
   m_MinSize: {x: 202, y: 221}
   m_MaxSize: {x: 4002, y: 4021}
-  m_ActualView: {fileID: 19}
+  m_ActualView: {fileID: 17}
   m_Panes:
-  - {fileID: 19}
+  - {fileID: 17}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &10
@@ -242,12 +243,12 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 641
-    width: 1492
+    width: 1250
     height: 297
   m_MinSize: {x: 200, y: 50}
   m_MaxSize: {x: 16192, y: 8096}
   vertical: 0
-  controlID: 56
+  controlID: 87
 --- !u!114 &11
 MonoBehaviour:
   m_ObjectHideFlags: 52
@@ -258,22 +259,22 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: ProgressWindow
+  m_Name: ConsoleWindow
   m_EditorClassIdentifier: 
   m_Children: []
   m_Position:
     serializedVersion: 2
     x: 0
     y: 0
-    width: 580
+    width: 489
     height: 297
-  m_MinSize: {x: 51, y: 71}
+  m_MinSize: {x: 101, y: 121}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 21}
+  m_ActualView: {fileID: 18}
   m_Panes:
-  - {fileID: 20}
-  - {fileID: 21}
-  m_Selected: 1
+  - {fileID: 18}
+  - {fileID: 19}
+  m_Selected: 0
   m_LastSelected: 1
 --- !u!114 &12
 MonoBehaviour:
@@ -290,43 +291,18 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 580
+    x: 489
     y: 0
-    width: 912
+    width: 761
     height: 297
   m_MinSize: {x: 232, y: 271}
   m_MaxSize: {x: 10002, y: 10021}
-  m_ActualView: {fileID: 22}
+  m_ActualView: {fileID: 20}
   m_Panes:
-  - {fileID: 22}
+  - {fileID: 20}
   m_Selected: 0
   m_LastSelected: 0
 --- !u!114 &13
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12010, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  m_Children:
-  - {fileID: 14}
-  - {fileID: 15}
-  m_Position:
-    serializedVersion: 2
-    x: 1492
-    y: 0
-    width: 428
-    height: 938
-  m_MinSize: {x: 100, y: 100}
-  m_MaxSize: {x: 8096, y: 16192}
-  vertical: 1
-  controlID: 106
---- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -341,47 +317,21 @@ MonoBehaviour:
   m_Children: []
   m_Position:
     serializedVersion: 2
-    x: 0
+    x: 1250
     y: 0
-    width: 428
-    height: 560
+    width: 670
+    height: 938
   m_MinSize: {x: 276, y: 71}
   m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 23}
+  m_ActualView: {fileID: 21}
   m_Panes:
+  - {fileID: 21}
+  - {fileID: 22}
   - {fileID: 23}
   - {fileID: 24}
-  - {fileID: 25}
-  - {fileID: 26}
   m_Selected: 0
-  m_LastSelected: 3
---- !u!114 &15
-MonoBehaviour:
-  m_ObjectHideFlags: 52
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 12006, guid: 0000000000000000e000000000000000, type: 0}
-  m_Name: GameView
-  m_EditorClassIdentifier: 
-  m_Children: []
-  m_Position:
-    serializedVersion: 2
-    x: 0
-    y: 560
-    width: 428
-    height: 378
-  m_MinSize: {x: 201, y: 221}
-  m_MaxSize: {x: 4001, y: 4021}
-  m_ActualView: {fileID: 16}
-  m_Panes:
-  - {fileID: 16}
-  m_Selected: 0
-  m_LastSelected: 0
---- !u!114 &16
+  m_LastSelected: 1
+--- !u!114 &14
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -403,10 +353,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Game\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1
-    y: 579
-    width: 427
-    height: 357
+    x: 0
+    y: 19
+    width: 993
+    height: 620
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -426,7 +376,7 @@ MonoBehaviour:
   m_ShowGizmos: 0
   m_TargetDisplay: 0
   m_ClearColor: {r: 0, g: 0, b: 0, a: 0}
-  m_TargetSize: {x: 427, y: 336}
+  m_TargetSize: {x: 993, y: 599}
   m_TextureFilterMode: 0
   m_TextureHideFlags: 61
   m_RenderIMGUI: 1
@@ -441,10 +391,10 @@ MonoBehaviour:
     m_VRangeLocked: 0
     hZoomLockedByDefault: 0
     vZoomLockedByDefault: 0
-    m_HBaseRangeMin: -213.5
-    m_HBaseRangeMax: 213.5
-    m_VBaseRangeMin: -168
-    m_VBaseRangeMax: 168
+    m_HBaseRangeMin: -496.5
+    m_HBaseRangeMax: 496.5
+    m_VBaseRangeMin: -299.5
+    m_VBaseRangeMax: 299.5
     m_HAllowExceedBaseRangeMin: 1
     m_HAllowExceedBaseRangeMax: 1
     m_VAllowExceedBaseRangeMin: 1
@@ -462,29 +412,29 @@ MonoBehaviour:
       serializedVersion: 2
       x: 0
       y: 21
-      width: 427
-      height: 336
+      width: 993
+      height: 599
     m_Scale: {x: 1, y: 1}
-    m_Translation: {x: 213.5, y: 168}
+    m_Translation: {x: 496.5, y: 299.5}
     m_MarginLeft: 0
     m_MarginRight: 0
     m_MarginTop: 0
     m_MarginBottom: 0
     m_LastShownAreaInsideMargins:
       serializedVersion: 2
-      x: -213.5
-      y: -168
-      width: 427
-      height: 336
+      x: -496.5
+      y: -299.5
+      width: 993
+      height: 599
     m_MinimalGUI: 1
   m_defaultScale: 1
-  m_LastWindowPixelSize: {x: 427, y: 357}
+  m_LastWindowPixelSize: {x: 993, y: 620}
   m_ClearInEditMode: 1
   m_NoCameraWarning: 1
   m_LowResolutionForAspectRatios: 01000000000000000000
   m_XRRenderMode: 0
   m_RenderTexture: {fileID: 0}
---- !u!114 &17
+--- !u!114 &15
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -507,8 +457,8 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 19
-    width: 1196
+    y: 84
+    width: 993
     height: 620
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -566,11 +516,11 @@ MonoBehaviour:
       displayed: 0
       id: unity-search-toolbar
       index: 1
-      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":-24.0,"y":25.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":1,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":-24.0,"y":0.0},"m_FloatingSnapCorner":1,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: -24, y: 25}
+      snapOffsetDelta: {x: -24, y: 0}
       snapCorner: 1
       layout: 1
       size: {x: 0, y: 0}
@@ -622,11 +572,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Light Settings
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 24, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -650,11 +600,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Cloth Constraints
       index: 1
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -664,11 +614,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Cloth Collisions
       index: 2
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -720,11 +670,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Occlusion Culling
       index: 3
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 24, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -734,11 +684,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Physics Debugger
       index: 4
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -748,11 +698,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Scene Visibility
       index: 5
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -762,11 +712,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Particles
       index: 6
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 24, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -874,11 +824,11 @@ MonoBehaviour:
       displayed: 0
       id: Brush Attributes
       index: 2
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 24, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -902,11 +852,11 @@ MonoBehaviour:
       displayed: 0
       id: Terrain Tools
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 24, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -916,11 +866,11 @@ MonoBehaviour:
       displayed: 0
       id: Brush Masks
       index: 1
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 24, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -930,11 +880,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/Lighting Visualization Colors
       index: 0
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":24.0,"y":0.0},"m_SnapOffsetDelta":{"x":0.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 24, y: 0}
-      snapOffsetDelta: {x: 0, y: 25}
+      snapOffsetDelta: {x: 0, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -944,11 +894,11 @@ MonoBehaviour:
       displayed: 0
       id: SceneView/CamerasOverlay
       index: 8
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -958,11 +908,11 @@ MonoBehaviour:
       displayed: 0
       id: Scene View/PBR Validation Settings
       index: 9
-      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":25.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
+      contents: '{"m_Layout":4,"m_Collapsed":false,"m_Floating":false,"m_FloatingSnapOffset":{"x":0.0,"y":0.0},"m_SnapOffsetDelta":{"x":24.0,"y":0.0},"m_FloatingSnapCorner":0,"m_Size":{"x":0.0,"y":0.0},"m_SizeOverridden":false}'
       floating: 0
       collapsed: 0
       snapOffset: {x: 0, y: 0}
-      snapOffsetDelta: {x: 24, y: 25}
+      snapOffsetDelta: {x: 24, y: 0}
       snapCorner: 0
       layout: 4
       size: {x: 0, y: 0}
@@ -1078,9 +1028,9 @@ MonoBehaviour:
   m_AudioPlay: 0
   m_DebugDrawModesUseInteractiveLightBakingData: 0
   m_Position:
-    m_Target: {x: 137.51167, y: -226.34984, z: 165.3463}
+    m_Target: {x: 7.630686, y: -32.61808, z: -3.6961942}
     speed: 2
-    m_Value: {x: 137.51167, y: -226.34984, z: 165.3463}
+    m_Value: {x: 7.630686, y: -32.61808, z: -3.6961942}
   m_RenderMode: 0
   m_CameraMode:
     drawMode: 0
@@ -1126,13 +1076,13 @@ MonoBehaviour:
     m_GridAxis: 1
     m_gridOpacity: 1
   m_Rotation:
-    m_Target: {x: -0.3786985, y: -0.30885047, z: 0.13570301, w: -0.8618619}
+    m_Target: {x: 0.27083504, y: 0.5749466, z: -0.20954102, w: 0.7431037}
     speed: 2
-    m_Value: {x: -0.3786985, y: -0.30885047, z: 0.13570301, w: -0.8618619}
+    m_Value: {x: 0.27083504, y: 0.5749465, z: -0.20954102, w: 0.7431037}
   m_Size:
-    m_Target: 183.18848
+    m_Target: 11.095152
     speed: 2
-    m_Value: 183.18848
+    m_Value: 11.095152
   m_Ortho:
     m_Target: 0
     speed: 2
@@ -1153,7 +1103,7 @@ MonoBehaviour:
   m_LastSceneViewRotation: {x: -0.46654835, y: 0.0065157157, z: -0.0033186004, w: -0.88446885}
   m_LastSceneViewOrtho: 0
   m_Viewpoint:
-    m_SceneView: {fileID: 17}
+    m_SceneView: {fileID: 15}
     m_CameraOverscanSettings:
       m_Opacity: 50
       m_Scale: 1
@@ -1163,7 +1113,7 @@ MonoBehaviour:
   m_LastLockedObject: {fileID: 0}
   m_LastDebugDrawMode: 35
   m_ViewIsLockedToObject: 0
---- !u!114 &18
+--- !u!114 &16
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1187,7 +1137,7 @@ MonoBehaviour:
     serializedVersion: 2
     x: 0
     y: 84
-    width: 1106
+    width: 993
     height: 620
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1200,7 +1150,7 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
---- !u!114 &19
+--- !u!114 &17
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1222,9 +1172,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Hierarchy\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1198
+    x: 995
     y: 19
-    width: 293
+    width: 254
     height: 620
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1242,7 +1192,7 @@ MonoBehaviour:
       scrollPos: {x: 0, y: 0}
       m_SelectedIDs: 
       m_LastClickedID: 0
-      m_ExpandedIDs: b8e5ffffc2e5ffff4ca400004ea40000
+      m_ExpandedIDs: 00fbffff04fbffff06fbffff
       m_RenameOverlay:
         m_UserAcceptedRename: 0
         m_Name: 
@@ -1259,7 +1209,7 @@ MonoBehaviour:
         m_OriginalEventType: 11
         m_IsRenamingFilename: 0
         m_TrimLeadingAndTrailingWhitespace: 0
-        m_ClientGUIView: {fileID: 0}
+        m_ClientGUIView: {fileID: 9}
       m_SearchString: 
     m_ExpandedScenes: []
     m_CurrenRootInstanceID: 0
@@ -1267,7 +1217,7 @@ MonoBehaviour:
       m_IsLocked: 0
     m_CurrentSortingName: TransformSorting
   m_WindowGUID: 4c969a2b90040154d917609493e03593
---- !u!114 &20
+--- !u!114 &18
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1290,8 +1240,8 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 725
-    width: 537
+    y: 19
+    width: 488
     height: 276
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1304,7 +1254,7 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
---- !u!114 &21
+--- !u!114 &19
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1326,8 +1276,8 @@ MonoBehaviour:
   m_Pos:
     serializedVersion: 2
     x: 0
-    y: 19
-    width: 579
+    y: 725
+    width: 566
     height: 276
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1340,7 +1290,7 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
---- !u!114 &22
+--- !u!114 &20
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1362,9 +1312,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Project\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 581
+    x: 490
     y: 19
-    width: 910
+    width: 759
     height: 276
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1388,7 +1338,7 @@ MonoBehaviour:
     m_SkipHidden: 0
     m_SearchArea: 1
     m_Folders:
-    - Assets/Materials
+    - Assets/Prefabs
     m_Globs: []
     m_ProductIds: 
     m_AnyWithAssetOrigin: 0
@@ -1398,16 +1348,16 @@ MonoBehaviour:
   m_ViewMode: 1
   m_StartGridSize: 64
   m_LastFolders:
-  - Assets/Materials
+  - Assets/Prefabs
   m_LastFoldersGridSize: -1
   m_LastProjectPath: C:\GDENG1\GDENG1_VoxelCity
   m_LockTracker:
     m_IsLocked: 0
   m_FolderTreeState:
     scrollPos: {x: 0, y: 0}
-    m_SelectedIDs: b6a30000
-    m_LastClickedID: 41910
-    m_ExpandedIDs: 000000001aa300001ca30000
+    m_SelectedIDs: 80a60000
+    m_LastClickedID: 42624
+    m_ExpandedIDs: 00000000c4a60000c6a60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1436,7 +1386,7 @@ MonoBehaviour:
     scrollPos: {x: 0, y: 0}
     m_SelectedIDs: 
     m_LastClickedID: 0
-    m_ExpandedIDs: 000000001aa300001ca30000
+    m_ExpandedIDs: 00000000c4a60000c6a60000
     m_RenameOverlay:
       m_UserAcceptedRename: 0
       m_Name: 
@@ -1494,7 +1444,7 @@ MonoBehaviour:
     m_GridSize: 64
   m_SkipHiddenPackages: 0
   m_DirectoriesAreaWidth: 153
---- !u!114 &23
+--- !u!114 &21
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1516,10 +1466,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Inspector\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1
+    x: 1251
     y: 19
-    width: 427
-    height: 539
+    width: 669
+    height: 917
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1544,7 +1494,7 @@ MonoBehaviour:
   m_LockTracker:
     m_IsLocked: 0
   m_PreviewWindow: {fileID: 0}
---- !u!114 &24
+--- !u!114 &22
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1566,10 +1516,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Lighting\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 914
+    x: 1250
     y: 84
-    width: 1005
-    height: 539
+    width: 669
+    height: 917
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1581,7 +1531,7 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
---- !u!114 &25
+--- !u!114 &23
 MonoBehaviour:
   m_ObjectHideFlags: 61
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1602,10 +1552,10 @@ MonoBehaviour:
     m_TextWithWhitespace: "Rendering Debugger\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 1377
+    x: 1250
     y: 84
-    width: 542
-    height: 917
+    width: 669
+    height: 539
   m_SerializedDataModeController:
     m_DataMode: 0
     m_PreferredDataMode: 0
@@ -1621,7 +1571,7 @@ MonoBehaviour:
     m_Keys: []
     m_Values: []
   m_Settings: {fileID: 0}
---- !u!114 &26
+--- !u!114 &24
 MonoBehaviour:
   m_ObjectHideFlags: 52
   m_CorrespondingSourceObject: {fileID: 0}
@@ -1642,9 +1592,9 @@ MonoBehaviour:
     m_TextWithWhitespace: "Git for Unity\u200B"
   m_Pos:
     serializedVersion: 2
-    x: 914
+    x: 1250
     y: 84
-    width: 1005
+    width: 669
     height: 539
   m_SerializedDataModeController:
     m_DataMode: 0
@@ -1657,16 +1607,16 @@ MonoBehaviour:
     m_SaveData: []
     m_ContainerData: []
     m_OverlaysVisible: 1
-  progressMessageClearTime: 301.6839192
+  progressMessageClearTime: -1
   notificationClearTime: -1
   timeSinceLastRotation: -1
   currentBranchAndRemoteHasUpdate: 0
   currentTrackingStatusHasUpdate: 1
   currentStatusEntriesHasUpdate: 1
   repositoryProgressHasUpdate: 1
-  appManagerProgressHasUpdate: 0
-  changeTab: 3
-  activeTab: 3
+  appManagerProgressHasUpdate: 1
+  changeTab: 2
+  activeTab: 2
   initProjectView:
     hasCompletedInitialCheck: 1
     isUserDataPresent: 1
@@ -1786,16 +1736,6 @@ MonoBehaviour:
         isActive: 0
         treeIsCheckable: 0
         checkState: 0
-      - path: origin/main
-        label: main
-        level: 2
-        isFolder: 0
-        isContainer: 0
-        isCollapsed: 0
-        isHidden: 0
-        isActive: 0
-        treeIsCheckable: 0
-        checkState: 0
       - path: origin/master
         label: master
         level: 2
@@ -1823,10 +1763,10 @@ MonoBehaviour:
     disableDelete: 1
     disableCreate: 1
     lastLocalAndRemoteBranchListChangedEvent:
-      updatedTimeString: 2024-05-15T11:36:41.588+08:00
+      updatedTimeString: 2024-05-17T10:23:35.056+08:00
       cacheType: 2
     lastCurrentBranchAndRemoteChange:
-      updatedTimeString: 2024-05-15T11:36:41.579+08:00
+      updatedTimeString: 2024-05-17T10:23:35.047+08:00
       cacheType: 1
     currentBranch:
       name: master
@@ -1843,14 +1783,12 @@ MonoBehaviour:
     - name: master
       tracking: origin/master
     remoteBranches:
-    - name: origin/main
-      tracking: '[None]'
     - name: origin/master
       tracking: '[None]'
   changesView:
-    currentBranchHasUpdate: 1
-    currentStatusEntriesHasUpdate: 1
-    currentLocksHasUpdate: 1
+    currentBranchHasUpdate: 0
+    currentStatusEntriesHasUpdate: 0
+    currentLocksHasUpdate: 0
     commitBody: 
     commitMessage: 
     currentBranch: master
@@ -1912,18 +1850,948 @@ MonoBehaviour:
     gitStatusEntries: []
     changedFilesText: No changed files
     lastCurrentBranchChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2024-05-17T10:23:35.047+08:00
       cacheType: 1
     lastStatusEntriesChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2024-05-17T10:22:50.442+08:00
       cacheType: 6
     lastLocksChangedEvent:
-      updatedTimeString: 0001-01-01T00:00:00.000+00:00
+      updatedTimeString: 2024-05-17T09:17:42.382+08:00
       cacheType: 7
   historyView:
-    currentLogHasUpdate: 0
-    currentTrackingStatusHasUpdate: 0
+    currentLogHasUpdate: 1
+    currentTrackingStatusHasUpdate: 1
     logEntries:
+    - commitID: 5204b0b7320bb7ebf3038adeff9d8ee572aec65e
+      mergeA: 
+      mergeB: 
+      authorName: DevNikz
+      authorEmail: paul_ragudo@dlsu.edu.ph
+      commitEmail: paul_ragudo@dlsu.edu.ph
+      commitName: DevNikz
+      summary: added grid prefab and etc (grey material, fixed ground)
+      description: 
+      timeString: 2024-05-17T10:22:46.000+08:00
+      commitTimeString: 2024-05-17T10:22:46.000+08:00
+      changes:
+      - path: Assets\Materials\Grey.mat
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\Grey.mat
+        projectPath: Assets\Materials\Grey.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\Grey.mat.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\Grey.mat.meta
+        projectPath: Assets\Materials\Grey.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\_Orange.mat
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Orange.mat
+        projectPath: Assets\Materials\_Orange.mat
+        originalPath: Assets\Materials\New Material.mat
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Materials\_Orange.mat.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Orange.mat.meta
+        projectPath: Assets\Materials\_Orange.mat.meta
+        originalPath: Assets\Materials\New Material.mat.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_Building0.prefab
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building0.prefab
+        projectPath: Assets\Prefabs\_Building0.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_Building1_Half.prefab
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building1_Half.prefab
+        projectPath: Assets\Prefabs\_Building1_Half.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_Building1_Half.prefab.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building1_Half.prefab.meta
+        projectPath: Assets\Prefabs\_Building1_Half.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_Grid25x50.prefab
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Grid25x50.prefab
+        projectPath: Assets\Prefabs\_Grid25x50.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_Grid25x50.prefab.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Grid25x50.prefab.meta
+        projectPath: Assets\Prefabs\_Grid25x50.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_Ground.prefab
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Ground.prefab
+        projectPath: Assets\Prefabs\_Ground.prefab
+        originalPath: Assets\Prefabs\Plane.prefab
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_Ground.prefab.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Ground.prefab.meta
+        projectPath: Assets\Prefabs\_Ground.prefab.meta
+        originalPath: Assets\Prefabs\Plane.prefab.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity.unity
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.unity
+        projectPath: Assets\Scene\VoxelCity.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2023.dwlt
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\default-2023.dwlt
+        projectPath: UserSettings\Layouts\default-2023.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 8133bc5405d8ad6aceb04b0b90a2fdfed76b43cc
+      mergeA: 
+      mergeB: 
+      authorName: DevNikz
+      authorEmail: paul_ragudo@dlsu.edu.ph
+      commitEmail: paul_ragudo@dlsu.edu.ph
+      commitName: DevNikz
+      summary: Added Long Building Prefab and Modified Lighting for current scene.
+      description: 
+      timeString: 2024-05-16T23:31:59.000+08:00
+      commitTimeString: 2024-05-16T23:31:59.000+08:00
+      changes:
+      - path: Assets\Materials\New Material.mat
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\New Material.mat
+        projectPath: Assets\Materials\New Material.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\New Material.mat.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\New Material.mat.meta
+        projectPath: Assets\Materials\New Material.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\Plane.prefab
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\Plane.prefab
+        projectPath: Assets\Prefabs\Plane.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_Building1.prefab
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building1.prefab
+        projectPath: Assets\Prefabs\_Building1.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_Building1.prefab.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building1.prefab.meta
+        projectPath: Assets\Prefabs\_Building1.prefab.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.meta
+        projectPath: Assets\Scene\VoxelCity.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity.unity
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.unity
+        projectPath: Assets\Scene\VoxelCity.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\LightingData.asset
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\LightingData.asset
+        projectPath: Assets\Scene\VoxelCity\LightingData.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\LightingData.asset.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\LightingData.asset.meta
+        projectPath: Assets\Scene\VoxelCity\LightingData.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png
+        projectPath: Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr
+        projectPath: Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr.meta
+        projectPath: Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\ReflectionProbe-0.exr
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\ReflectionProbe-0.exr
+        projectPath: Assets\Scene\VoxelCity\ReflectionProbe-0.exr
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity\ReflectionProbe-0.exr.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\ReflectionProbe-0.exr.meta
+        projectPath: Assets\Scene\VoxelCity\ReflectionProbe-0.exr.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\SampleSceneProfile.asset
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\SampleSceneProfile.asset
+        projectPath: Assets\Settings\SampleSceneProfile.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Settings\Test.asset
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\Test.asset
+        projectPath: Assets\Settings\Test.asset
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Test.asset.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\Test.asset.meta
+        projectPath: Assets\Settings\Test.asset.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Test.lighting
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\Test.lighting
+        projectPath: Assets\Settings\Test.lighting
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\Test.lighting.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\Test.lighting.meta
+        projectPath: Assets\Settings\Test.lighting.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-Balanced-Renderer.asset
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\URP-Balanced-Renderer.asset
+        projectPath: Assets\Settings\URP-Balanced-Renderer.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-HighFidelity.asset
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\URP-HighFidelity.asset
+        projectPath: Assets\Settings\URP-HighFidelity.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\EditorUserSettings.asset
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\EditorUserSettings.asset
+        projectPath: UserSettings\EditorUserSettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2023.dwlt
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\default-2023.dwlt
+        projectPath: UserSettings\Layouts\default-2023.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: a111982b65a8c7833cde46c5aa550466c36c4534
+      mergeA: 
+      mergeB: 
+      authorName: DevNikz
+      authorEmail: paul_ragudo@dlsu.edu.ph
+      commitEmail: paul_ragudo@dlsu.edu.ph
+      commitName: DevNikz
+      summary: Optimized Plane for future reference
+      description: 
+      timeString: 2024-05-15T19:14:50.000+08:00
+      commitTimeString: 2024-05-15T19:14:50.000+08:00
+      changes:
+      - path: Assets\Prefabs\Plane.prefab
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\Plane.prefab
+        projectPath: Assets\Prefabs\Plane.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 13a9799b8d98458270355b6b4abd75c4f6ff0a66
+      mergeA: 
+      mergeB: 
+      authorName: DevNikz
+      authorEmail: paul_ragudo@dlsu.edu.ph
+      commitEmail: paul_ragudo@dlsu.edu.ph
+      commitName: DevNikz
+      summary: Fixed Lighting. Will update lighting and rendering later on
+      description: 
+      timeString: 2024-05-15T19:11:08.000+08:00
+      commitTimeString: 2024-05-15T19:11:08.000+08:00
+      changes:
+      - path: Assets\Scene\VoxelCity.unity
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.unity
+        projectPath: Assets\Scene\VoxelCity.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-HighFidelity-Renderer.asset
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\URP-HighFidelity-Renderer.asset
+        projectPath: Assets\Settings\URP-HighFidelity-Renderer.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Settings\URP-HighFidelity.asset
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\URP-HighFidelity.asset
+        projectPath: Assets\Settings\URP-HighFidelity.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: ProjectSettings\QualitySettings.asset
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\ProjectSettings\QualitySettings.asset
+        projectPath: ProjectSettings\QualitySettings.asset
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2023.dwlt
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\default-2023.dwlt
+        projectPath: UserSettings\Layouts\default-2023.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: f96f47fb87363c41bf8d90501af758bf6f6d7d02
+      mergeA: 
+      mergeB: 
+      authorName: DevNikz
+      authorEmail: paul_ragudo@dlsu.edu.ph
+      commitEmail: paul_ragudo@dlsu.edu.ph
+      commitName: DevNikz
+      summary: Optimized Prefabs.
+      description: 
+      timeString: 2024-05-15T19:06:59.000+08:00
+      commitTimeString: 2024-05-15T19:06:59.000+08:00
+      changes:
+      - path: Assets\Prefabs\_Building0.prefab
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building0.prefab
+        projectPath: Assets\Prefabs\_Building0.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_LargeTree.prefab
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_LargeTree.prefab
+        projectPath: Assets\Prefabs\_LargeTree.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_SmallTree.prefab
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_SmallTree.prefab
+        projectPath: Assets\Prefabs\_SmallTree.prefab
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity.unity
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.unity
+        projectPath: Assets\Scene\VoxelCity.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2023.dwlt
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\default-2023.dwlt
+        projectPath: UserSettings\Layouts\default-2023.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+    - commitID: 2dce7b2da79bc4d7c639acd06cf49cb30b9c386f
+      mergeA: 
+      mergeB: 
+      authorName: DevNikz
+      authorEmail: paul_ragudo@dlsu.edu.ph
+      commitEmail: paul_ragudo@dlsu.edu.ph
+      commitName: DevNikz
+      summary: Added a Building Prefab and fixed materials
+      description: Will optimize this later on.
+      timeString: 2024-05-15T18:28:39.000+08:00
+      commitTimeString: 2024-05-15T18:28:39.000+08:00
+      changes:
+      - path: Assets\Materials\_Black.mat
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Black.mat
+        projectPath: Assets\Materials\_Black.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\_Black.mat.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Black.mat.meta
+        projectPath: Assets\Materials\_Black.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\_Brown.mat
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Brown.mat
+        projectPath: Assets\Materials\_Brown.mat
+        originalPath: Assets\Materials\Tree\_TreeStem.mat
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Materials\_Brown.mat.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Brown.mat.meta
+        projectPath: Assets\Materials\_Brown.mat.meta
+        originalPath: Assets\Materials\Tree\_TreeStem.mat.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Materials\_Cream.mat
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Cream.mat
+        projectPath: Assets\Materials\_Cream.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\_Cream.mat.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Cream.mat.meta
+        projectPath: Assets\Materials\_Cream.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\_DarkGray.mat
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_DarkGray.mat
+        projectPath: Assets\Materials\_DarkGray.mat
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\_DarkGray.mat.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_DarkGray.mat.meta
+        projectPath: Assets\Materials\_DarkGray.mat.meta
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Materials\_Green.mat
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Green.mat
+        projectPath: Assets\Materials\_Green.mat
+        originalPath: Assets\Materials\Tree\_TreeLeaves.mat
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Materials\_Green.mat.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Green.mat.meta
+        projectPath: Assets\Materials\_Green.mat.meta
+        originalPath: Assets\Materials\Tree\_TreeLeaves.mat.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_Building0.prefab
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building0.prefab
+        projectPath: Assets\Prefabs\_Building0.prefab
+        originalPath: 
+        indexStatus: 4
+        workTreeStatus: 0
+      - path: Assets\Prefabs\_Building0.prefab.meta
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building0.prefab.meta
+        projectPath: Assets\Prefabs\_Building0.prefab.meta
+        originalPath: Assets\Materials\Tree.meta
+        indexStatus: 6
+        workTreeStatus: 0
+      - path: Assets\Scene\VoxelCity.unity
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.unity
+        projectPath: Assets\Scene\VoxelCity.unity
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
+      - path: UserSettings\Layouts\default-2023.dwlt
+        fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\default-2023.dwlt
+        projectPath: UserSettings\Layouts\default-2023.dwlt
+        originalPath: 
+        indexStatus: 3
+        workTreeStatus: 0
     - commitID: b88896b32517e4a7eacca790d80d0406fe68cc2d
       mergeA: 
       mergeB: 
@@ -2538,14 +3406,944 @@ MonoBehaviour:
         workTreeStatus: 0
     statusAhead: 0
     lastLogChangedEvent:
-      updatedTimeString: 2024-05-15T17:53:03.047+08:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 3
     lastTrackingStatusChangedEvent:
-      updatedTimeString: 2024-05-15T17:53:03.033+08:00
+      updatedTimeString: 0001-01-01T00:00:00.000+00:00
       cacheType: 5
     historyControl:
       scroll: {x: 0, y: 0}
       entries:
+      - commitID: 5204b0b7320bb7ebf3038adeff9d8ee572aec65e
+        mergeA: 
+        mergeB: 
+        authorName: DevNikz
+        authorEmail: paul_ragudo@dlsu.edu.ph
+        commitEmail: paul_ragudo@dlsu.edu.ph
+        commitName: DevNikz
+        summary: added grid prefab and etc (grey material, fixed ground)
+        description: 
+        timeString: 2024-05-17T10:22:46.000+08:00
+        commitTimeString: 2024-05-17T10:22:46.000+08:00
+        changes:
+        - path: Assets\Materials\Grey.mat
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\Grey.mat
+          projectPath: Assets\Materials\Grey.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\Grey.mat.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\Grey.mat.meta
+          projectPath: Assets\Materials\Grey.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\_Orange.mat
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Orange.mat
+          projectPath: Assets\Materials\_Orange.mat
+          originalPath: Assets\Materials\New Material.mat
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Materials\_Orange.mat.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Orange.mat.meta
+          projectPath: Assets\Materials\_Orange.mat.meta
+          originalPath: Assets\Materials\New Material.mat.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_Building0.prefab
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building0.prefab
+          projectPath: Assets\Prefabs\_Building0.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_Building1_Half.prefab
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building1_Half.prefab
+          projectPath: Assets\Prefabs\_Building1_Half.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_Building1_Half.prefab.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building1_Half.prefab.meta
+          projectPath: Assets\Prefabs\_Building1_Half.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_Grid25x50.prefab
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Grid25x50.prefab
+          projectPath: Assets\Prefabs\_Grid25x50.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_Grid25x50.prefab.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Grid25x50.prefab.meta
+          projectPath: Assets\Prefabs\_Grid25x50.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_Ground.prefab
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Ground.prefab
+          projectPath: Assets\Prefabs\_Ground.prefab
+          originalPath: Assets\Prefabs\Plane.prefab
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_Ground.prefab.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Ground.prefab.meta
+          projectPath: Assets\Prefabs\_Ground.prefab.meta
+          originalPath: Assets\Prefabs\Plane.prefab.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity.unity
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.unity
+          projectPath: Assets\Scene\VoxelCity.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2023.dwlt
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\default-2023.dwlt
+          projectPath: UserSettings\Layouts\default-2023.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 8133bc5405d8ad6aceb04b0b90a2fdfed76b43cc
+        mergeA: 
+        mergeB: 
+        authorName: DevNikz
+        authorEmail: paul_ragudo@dlsu.edu.ph
+        commitEmail: paul_ragudo@dlsu.edu.ph
+        commitName: DevNikz
+        summary: Added Long Building Prefab and Modified Lighting for current scene.
+        description: 
+        timeString: 2024-05-16T23:31:59.000+08:00
+        commitTimeString: 2024-05-16T23:31:59.000+08:00
+        changes:
+        - path: Assets\Materials\New Material.mat
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\New Material.mat
+          projectPath: Assets\Materials\New Material.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\New Material.mat.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\New Material.mat.meta
+          projectPath: Assets\Materials\New Material.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\Plane.prefab
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\Plane.prefab
+          projectPath: Assets\Prefabs\Plane.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_Building1.prefab
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building1.prefab
+          projectPath: Assets\Prefabs\_Building1.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_Building1.prefab.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building1.prefab.meta
+          projectPath: Assets\Prefabs\_Building1.prefab.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.meta
+          projectPath: Assets\Scene\VoxelCity.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity.unity
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.unity
+          projectPath: Assets\Scene\VoxelCity.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\LightingData.asset
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\LightingData.asset
+          projectPath: Assets\Scene\VoxelCity\LightingData.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\LightingData.asset.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\LightingData.asset.meta
+          projectPath: Assets\Scene\VoxelCity\LightingData.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-0_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-0_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-10_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-10_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-11_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-11_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-12_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-12_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-13_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-13_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-14_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-14_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-15_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-15_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-16_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-16_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-17_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-17_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-18_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-18_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-19_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-19_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-1_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-1_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-20_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-20_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-2_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-2_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-3_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-3_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-4_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-4_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-5_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-5_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-6_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-6_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-7_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-7_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-8_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-8_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png
+          projectPath: Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-9_comp_dir.png.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr
+          projectPath: Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr.meta
+          projectPath: Assets\Scene\VoxelCity\Lightmap-9_comp_light.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\ReflectionProbe-0.exr
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\ReflectionProbe-0.exr
+          projectPath: Assets\Scene\VoxelCity\ReflectionProbe-0.exr
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity\ReflectionProbe-0.exr.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity\ReflectionProbe-0.exr.meta
+          projectPath: Assets\Scene\VoxelCity\ReflectionProbe-0.exr.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\SampleSceneProfile.asset
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\SampleSceneProfile.asset
+          projectPath: Assets\Settings\SampleSceneProfile.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Settings\Test.asset
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\Test.asset
+          projectPath: Assets\Settings\Test.asset
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Test.asset.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\Test.asset.meta
+          projectPath: Assets\Settings\Test.asset.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Test.lighting
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\Test.lighting
+          projectPath: Assets\Settings\Test.lighting
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\Test.lighting.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\Test.lighting.meta
+          projectPath: Assets\Settings\Test.lighting.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-Balanced-Renderer.asset
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\URP-Balanced-Renderer.asset
+          projectPath: Assets\Settings\URP-Balanced-Renderer.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-HighFidelity.asset
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\URP-HighFidelity.asset
+          projectPath: Assets\Settings\URP-HighFidelity.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\EditorUserSettings.asset
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\EditorUserSettings.asset
+          projectPath: UserSettings\EditorUserSettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          projectPath: UserSettings\Layouts\CurrentMaximizeLayout.dwlt
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2023.dwlt
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\default-2023.dwlt
+          projectPath: UserSettings\Layouts\default-2023.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: a111982b65a8c7833cde46c5aa550466c36c4534
+        mergeA: 
+        mergeB: 
+        authorName: DevNikz
+        authorEmail: paul_ragudo@dlsu.edu.ph
+        commitEmail: paul_ragudo@dlsu.edu.ph
+        commitName: DevNikz
+        summary: Optimized Plane for future reference
+        description: 
+        timeString: 2024-05-15T19:14:50.000+08:00
+        commitTimeString: 2024-05-15T19:14:50.000+08:00
+        changes:
+        - path: Assets\Prefabs\Plane.prefab
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\Plane.prefab
+          projectPath: Assets\Prefabs\Plane.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 13a9799b8d98458270355b6b4abd75c4f6ff0a66
+        mergeA: 
+        mergeB: 
+        authorName: DevNikz
+        authorEmail: paul_ragudo@dlsu.edu.ph
+        commitEmail: paul_ragudo@dlsu.edu.ph
+        commitName: DevNikz
+        summary: Fixed Lighting. Will update lighting and rendering later on
+        description: 
+        timeString: 2024-05-15T19:11:08.000+08:00
+        commitTimeString: 2024-05-15T19:11:08.000+08:00
+        changes:
+        - path: Assets\Scene\VoxelCity.unity
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.unity
+          projectPath: Assets\Scene\VoxelCity.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-HighFidelity-Renderer.asset
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\URP-HighFidelity-Renderer.asset
+          projectPath: Assets\Settings\URP-HighFidelity-Renderer.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Settings\URP-HighFidelity.asset
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Settings\URP-HighFidelity.asset
+          projectPath: Assets\Settings\URP-HighFidelity.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: ProjectSettings\QualitySettings.asset
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\ProjectSettings\QualitySettings.asset
+          projectPath: ProjectSettings\QualitySettings.asset
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2023.dwlt
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\default-2023.dwlt
+          projectPath: UserSettings\Layouts\default-2023.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: f96f47fb87363c41bf8d90501af758bf6f6d7d02
+        mergeA: 
+        mergeB: 
+        authorName: DevNikz
+        authorEmail: paul_ragudo@dlsu.edu.ph
+        commitEmail: paul_ragudo@dlsu.edu.ph
+        commitName: DevNikz
+        summary: Optimized Prefabs.
+        description: 
+        timeString: 2024-05-15T19:06:59.000+08:00
+        commitTimeString: 2024-05-15T19:06:59.000+08:00
+        changes:
+        - path: Assets\Prefabs\_Building0.prefab
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building0.prefab
+          projectPath: Assets\Prefabs\_Building0.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_LargeTree.prefab
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_LargeTree.prefab
+          projectPath: Assets\Prefabs\_LargeTree.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_SmallTree.prefab
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_SmallTree.prefab
+          projectPath: Assets\Prefabs\_SmallTree.prefab
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity.unity
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.unity
+          projectPath: Assets\Scene\VoxelCity.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2023.dwlt
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\default-2023.dwlt
+          projectPath: UserSettings\Layouts\default-2023.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+      - commitID: 2dce7b2da79bc4d7c639acd06cf49cb30b9c386f
+        mergeA: 
+        mergeB: 
+        authorName: DevNikz
+        authorEmail: paul_ragudo@dlsu.edu.ph
+        commitEmail: paul_ragudo@dlsu.edu.ph
+        commitName: DevNikz
+        summary: Added a Building Prefab and fixed materials
+        description: Will optimize this later on.
+        timeString: 2024-05-15T18:28:39.000+08:00
+        commitTimeString: 2024-05-15T18:28:39.000+08:00
+        changes:
+        - path: Assets\Materials\_Black.mat
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Black.mat
+          projectPath: Assets\Materials\_Black.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\_Black.mat.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Black.mat.meta
+          projectPath: Assets\Materials\_Black.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\_Brown.mat
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Brown.mat
+          projectPath: Assets\Materials\_Brown.mat
+          originalPath: Assets\Materials\Tree\_TreeStem.mat
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Materials\_Brown.mat.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Brown.mat.meta
+          projectPath: Assets\Materials\_Brown.mat.meta
+          originalPath: Assets\Materials\Tree\_TreeStem.mat.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Materials\_Cream.mat
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Cream.mat
+          projectPath: Assets\Materials\_Cream.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\_Cream.mat.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Cream.mat.meta
+          projectPath: Assets\Materials\_Cream.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\_DarkGray.mat
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_DarkGray.mat
+          projectPath: Assets\Materials\_DarkGray.mat
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\_DarkGray.mat.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_DarkGray.mat.meta
+          projectPath: Assets\Materials\_DarkGray.mat.meta
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Materials\_Green.mat
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Green.mat
+          projectPath: Assets\Materials\_Green.mat
+          originalPath: Assets\Materials\Tree\_TreeLeaves.mat
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Materials\_Green.mat.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Materials\_Green.mat.meta
+          projectPath: Assets\Materials\_Green.mat.meta
+          originalPath: Assets\Materials\Tree\_TreeLeaves.mat.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_Building0.prefab
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building0.prefab
+          projectPath: Assets\Prefabs\_Building0.prefab
+          originalPath: 
+          indexStatus: 4
+          workTreeStatus: 0
+        - path: Assets\Prefabs\_Building0.prefab.meta
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Prefabs\_Building0.prefab.meta
+          projectPath: Assets\Prefabs\_Building0.prefab.meta
+          originalPath: Assets\Materials\Tree.meta
+          indexStatus: 6
+          workTreeStatus: 0
+        - path: Assets\Scene\VoxelCity.unity
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\Assets\Scene\VoxelCity.unity
+          projectPath: Assets\Scene\VoxelCity.unity
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
+        - path: UserSettings\Layouts\default-2023.dwlt
+          fullPath: C:\GDENG1\GDENG1_VoxelCity\UserSettings\Layouts\default-2023.dwlt
+          projectPath: UserSettings\Layouts\default-2023.dwlt
+          originalPath: 
+          indexStatus: 3
+          workTreeStatus: 0
       - commitID: b88896b32517e4a7eacca790d80d0406fe68cc2d
         mergeA: 
         mergeB: 
@@ -5545,13 +7343,13 @@ MonoBehaviour:
     m_Tooltip: Url of the origin remote
     m_TextWithWhitespace: "https://github.com/DevNikz/GDENG1_VoxelCity\u200B"
   lastCurrentBranchAndRemoteChangedEvent:
-    updatedTimeString: 2024-05-16T23:33:11.209+08:00
+    updatedTimeString: 2024-05-17T10:23:35.047+08:00
     cacheType: 1
   lastTrackingStatusChangedEvent:
-    updatedTimeString: 2024-05-16T23:37:17.614+08:00
+    updatedTimeString: 2024-05-17T10:24:15.080+08:00
     cacheType: 5
   lastStatusEntriesChangedEvent:
-    updatedTimeString: 2024-05-16T23:37:17.603+08:00
+    updatedTimeString: 2024-05-17T10:24:15.054+08:00
     cacheType: 6
   pullButtonContent:
     m_Text: Pull
@@ -5573,8 +7371,8 @@ MonoBehaviour:
     m_Image: {fileID: 0}
     m_Tooltip: 
     m_TextWithWhitespace: "Fetch\u200B"
-  repositoryProgressValue: 0.9998532
-  repositoryProgressMessage: Pushed
+  repositoryProgressValue: 0
+  repositoryProgressMessage: 
   appManagerProgressValue: 1
   appManagerProgressMessage: 
   primaryConnectionUsername: 
